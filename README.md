@@ -6,3 +6,15 @@ This project is accompanied by _"[Understanding for Bash Script](https://www.not
 
 - [Basic of BashScript](src/01_basic)
 - [Advanced of BashScript](src/02_advanced)
+
+## Get Started
+
+Get started with [this tap](./README.md#get-started)
+
+### Environment
+
+I use Code on Web
+
+1. [JSLinux](https://bellard.org/jslinux/)
+2. [Code on Web](https://www.codeonweb.com/#/)
+3. AWS Linux
