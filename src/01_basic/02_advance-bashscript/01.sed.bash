@@ -7,9 +7,9 @@ function echoTitle {
     echo "=========== ${1} ==========="
 }
 
-LOAD_FILE="/home/ubuntu/bash_project_v2/src/01_basic/02_advance-bashscript/01.data"
-SAVE_FILE_1="/home/ubuntu/bash_project_v2/src/01_basic/02_advance-bashscript/01.data.aft"
-SAVE_FILE_2="/home/ubuntu/bash_project_v2/src/01_basic/02_advance-bashscript/01.data.aft2"
+LOAD_FILE="/home/ubuntu/bash_project_v2/src/01_basic/02_advance-bashscript/01.sed"
+SAVE_FILE_1="/home/ubuntu/bash_project_v2/src/01_basic/02_advance-bashscript/01.sed.aft"
+SAVE_FILE_2="/home/ubuntu/bash_project_v2/src/01_basic/02_advance-bashscript/01.sed.aft2"
 
 echo
 echoTitle "[GROUP A]"
