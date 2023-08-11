@@ -30,3 +30,8 @@ echoLine
 echoTitle "[GROUP E]"
 awk -F: '{print $2}' ${FILE_PATH_2}
 echoLine
+
+echoTitle "[GROUP E]"
+echo 'before';  uptime
+echo 'after';     uptime | awk -Faverage: '{print $2}'
+echoLine
