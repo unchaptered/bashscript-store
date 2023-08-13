@@ -33,15 +33,15 @@ I use Code on Web
     2. Install Ethernet Client, and then Re-click Network Adapter to sync between VirtualBox and your PC.
         1. Install Ethernet Client for Microsoft Network to use Virtual Box. <br>
             <image
-                style="width: 400px;"
+                style="width: 700px;"
                 src="images/virtualbox_ethernet_setup_01.png" />
             <image
-                style="width: 400px;"
+                style="width: 700px;"
                 src="images/virtualbox_ethernet_setup_02.png" />
             <image
-                style="width: 400px;"
+                style="width: 700px;"
                 src="images/virtualbox_ethernet_setup_03.png" />
         2. Re-click network adapter to sync betwen Virtual Box and your PC. <br>
             <image
-                style="width: 400px;"
+                style="width: 700px;"
                 src="images/virtualbox_network_adapter_01.png" />
