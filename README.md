@@ -15,7 +15,7 @@ This project is accompanied by _"[Understanding for Bash Script](https://www.not
 ### A.1. Virtual Box
 
 1. Install **[Virtual Box 6.1.32](https://download.virtualbox.org/virtualbox/6.1.32/)**.
-2. Create **Virtual Machine as CentOS Version 8**
+2. Create **Virtual Machine as CentOS Version 8**, using [Vagrantfile](./Vagrantfile)
 
 > Are you encounter this Erorrs? <br>
 > 
@@ -46,3 +46,28 @@ This project is accompanied by _"[Understanding for Bash Script](https://www.not
 
 1. Install **[Vagrant 2.3.7.](https://developer.hashicorp.com/vagrant/docs/v2.3.7/installation)**
 
+> Are you encounter this error?
+>
+> 1. The box 'rockylinux/8' could not be found or could not be accessed in the remote catalog. If this is a private box on HashiCorp's Atlas, please verify you're logged in via `vagrant login`.
+> 
+> Follow this solutions. <br>
+>
+> <details>
+>    <summary> 1. Use `vagrant login --token TOKEN` or `vagrant cloud auth login` </summary>
+>    
+> 1.a. Use `vagrant login --token TOKEN` after publish access token with Vagrant Cloud Web Console. <br>
+> 1.b. Use `Vagrant cloud auth login`.
+> </details>
+
+umm..
+
+> Are you encounter this error?
+>
+> 1. VagrantCloud::Error::ClientError::RequestError
+>
+> Follow this solutions.
+>
+> <details>
+>    <summary> 1. Use `vagrant login --token TOKEN` without vagrant login --username USERNAME/USER-EMAIL</summary>
+> In some device, vagrant login occure error.
+> </details>
